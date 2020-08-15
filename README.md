@@ -10,7 +10,7 @@ This app allows users to create an account, log into the account and sign back o
 
 ## USER STORY
 
-as someone who wants to safely log in to "X", I want to know my personal details are safely stored so that I dont have to worry about using "X".
+As someone who wants to safely log in to "X", I want to know my personal details are safely stored so that I don't have to worry about using "X".
 
 ------------------------------------------------------------------------------------------------------------------------------
 
@@ -46,7 +46,7 @@ to begin using this app, please clone this repository into your local storage. O
   MIDDLEWARE
   
     isAuthenticated.js { 
-    restricts routes that user is not allowed to visit if not logged in. if user is logged in, 
+    restricts routes that a user is not allowed to visit if not logged in. if user is logged in, 
     it continues with request };
     
   config.json {
@@ -61,7 +61,7 @@ to begin using this app, please clone this repository into your local storage. O
   connects to database and imports users log in data };
   
   user.js {
-  requires "bcrypt" for password hashing. this makes our database secure even if compromised. Here we have JS that defines what is stored on our database };
+  requires "bcrypt" for password hashing. This makes our database secure even if compromised. Here we have JS that defines what is stored on our database };
   
 ### ROUTES
 
@@ -69,7 +69,7 @@ to begin using this app, please clone this repository into your local storage. O
   contains routes for signing in, logging out and getting users specific data to be displayed client side };
   
   html-routes.js {
-  routes that check whether user is signed in, whether user already has account etc and sends them tio the correct html page };
+  routes that check whether user is signed in, whether user already has account etc and sends them to the correct html page };
   
 package.json {
 contains all package info, node modules used, version info etc };
@@ -97,7 +97,7 @@ Any representation of information such as a chart, diagram or table. Multiple vi
 
 Accepts input and converts it to commands for the model or view.
 
-## Additionnal information 
+## Additional information 
 
 In addition to dividing the application into these components, the model–view–controller design defines the interactions between them.
 
@@ -111,3 +111,7 @@ As with other software patterns, MVC expresses the "core of the solution" to a p
 ## The MVC Schema
 
 ![mvc-rails](https://user-images.githubusercontent.com/64518932/90301966-9193bc00-ded5-11ea-8ccf-71a0e877038d.png)
+
+# Editable word document 
+
+https://docs.google.com/document/d/1DADptmnaLsf9oCyRpDpTH9A0f9BjvIZbnS9PQp__8ec/edit?usp=sharing 
