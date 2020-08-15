@@ -16,13 +16,13 @@ as someone who wants to safely log in to "X", I want to know my personal details
 
 ## TECH USED 
 
--BCRYPTJS
--EXPRESS
--EXPRESS-SESSION
--MYSQL2
--PASSPORT
--PASSPORT-LOCAL
--SEQUELIZE
+* BCRYPTJS
+* EXPRESS
+* EXPRESS-SESSION
+* MYSQL2
+* PASSPORT
+* PASSPORT-LOCAL
+* SEQUELIZE
 
 ------------------------------------------------------------------------------------------------------------------------------
 
@@ -30,12 +30,12 @@ as someone who wants to safely log in to "X", I want to know my personal details
 
 to begin using this app, please clone this repository into your local storage. Once this is complete, please follow these steps;
 
-1)create a mysql db called "passport_demo"
-2)go into the config file, open config.js and insert your personal data ie username, password etc
-3)open terminal in current repo and run "npm i" to install all node packages
-4)while in terminal, run "node server.js" and you will successfully connect to server
-5)open browser and put "http://localhost:8080" in search bar
-6)enjoy using the app!
+1. create a mysql db called "passport_demo"
+2. go into the config file, open config.js and insert your personal data ie username, password etc
+3. open terminal in current repo and run "npm i" to install all node packages
+4. while in terminal, run "node server.js" and you will successfully connect to server
+5. open browser and put "http://localhost:8080" in search bar
+6. enjoy using the app!
 
 ------------------------------------------------------------------------------------------------------------------------------
 
@@ -46,7 +46,8 @@ to begin using this app, please clone this repository into your local storage. O
   MIDDLEWARE
   
     isAuthenticated.js { 
-    restricts routes that user is not allowed to visit if not logged in. if user is logged in, it continues with request };
+    restricts routes that user is not allowed to visit if not logged in. if user is logged in, 
+    it continues with request };
     
   config.json {
   connection configuration to connect to server };
